@@ -10,14 +10,16 @@ Le but de la serre autonome et de fournir un millieu propice au développement d
 J'aime beaucoup mes plantes mais malheuresement je les laisse mourir, donc je voudrais leur offrir une meiileur vie et donc un millieu propice ou elles pourrons vivre
 ## Architecture
 --
+ Le capteur d'humidité mesure le niveau d'humidité du sol. Si le sol est trop sec, il envoie un signal à l'Arduino.
+ En réponse au signal du capteur, l'Arduino active la pompe d'eau qui arrose les plantes jusqu'à ce que le niveau d'humidité adéquat soit atteint.L'écran LCD affiche en temps réel les données sur l'humidité du sol et l'état de la pompe, permettant de vérifier facilement le fonctionnement du système.
 ### Block diagram
 
 <!-- Make sure the path to the picture is correct -->
-![Block Diagram](schematics/block_diagram.png)
+![Block Diagram](images/image.png)
 
 ### Schematic
 
-![Schematic](schematics/kicad_schematic.png)
+![Schematic](images/schema_serre.png)
 
 ### Components
 
@@ -32,7 +34,6 @@ J'aime beaucoup mes plantes mais malheuresement je les laisse mourir, donc je vo
 | Ecran LCD | Affiche les informations utiles| [17 RON](https://www.optimusdigital.ro/ro/optoelectronice-lcd-uri/2894-lcd-cu-interfata-i2c-si-backlight-albastru.html)|
 | Arduino | Le microcontrolleur | [73 RON](https://www.emag.ro/kit-plusivo-microcontroller-starter-programabil-in-arduino-ide-x001fpqyl1/pd/DKJN9VMBM/)|
 |Led| fais de la lumiere | [se trouve dans le kit ci de-dessus](https://www.emag.ro/kit-plusivo-microcontroller-starter-programabil-in-arduino-ide-x001fpqyl1/pd/DKJN9VMBM/) |
-|Boutons| sert a interagir avec l'arduino | [dans le kit](https://www.emag.ro/kit-plusivo-microcontroller-starter-programabil-in-arduino-ide-x001fpqyl1/pd/DKJN9VMBM/) |
 ### Libraries
 
 <!-- This is just an example, fill in the table with your actual components -->
