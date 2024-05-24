@@ -66,16 +66,19 @@ void loop() {
   //convert int in str
   sprintf(sHum, "H:%2d%%  ", hum);
 
-  if (isnan(hum) || isnan(level)) {  // Is Not A Number
+  if (level < 50 || (isnan(hum) || isnan(level))) {  // Is Not A Number
     //verif daca senzorele merg
     lcd.clear();
     lcd.setCursor(0, 0);  //  setting the cursor in the desired position.
     lcd.print("check senzors");
+    lcd.setCursor(1, 0);  //  setting the cursor in the desired position.
+    lcd.print("is there water??");
+    digitalWrite(PUMP, LOW);
     digitalWrite(RLED, HIGH);
     digitalWrite(GLED, LOW);
-    while (isnan(hum) || isnan(level)) {
-      delay(1);
-    }
+    while (level < 50 || (isnan(hum) || isnan(level))) {
+        delay(1);
+      }
   }
   digitalWrite(RLED, LOW);
   digitalWrite(GLED, HIGH);
