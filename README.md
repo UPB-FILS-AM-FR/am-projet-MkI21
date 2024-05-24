@@ -1,8 +1,6 @@
-# Jardin Autonome
+# Serre Autonome
 
-| | |
-|-|-|
-|`Author` | Tachet Mickael
+`Author` : `Tachet Mickael` 
 
 ## Description
 Le but de la serre autonome et de fournir un millieu propice au développement des plantes sans intervention humaine (lumière + eau) 
@@ -31,35 +29,37 @@ J'aime beaucoup mes plantes mais malheuresement je les laisse mourir, donc je vo
 | Arduino (kit)| Le microcontrolleur | [73 RON](https://www.emag.ro/kit-plusivo-microcontroller-starter-programabil-in-arduino-ide-x001fpqyl1/pd/DKJN9VMBM/)|
 | Capteur humidite sol | Mesure l'humidite du sol | [10 RON](https://www.optimusdigital.ro/ro/senzori-senzori-de-umiditate/73-senzor-de-umiditate-a-solului.html?search_query=umiditate+sol&results=26)|
 | Pompe d'eau | Pompe d'eau submersible qui pompe de l'eau | [10 RON](https://www.optimusdigital.ro/ro/altele/4149-mini-pompa-de-apa-submersibila.html)|
+| Capteur nv d'eau | sert a voir combien d'eau il ns reste | [2 RON](https://www.optimusdigital.ro/ro/senzori-altele/272-senzor-de-nivel-al-apei.html?search_query=senzor+apa&results=199)
 | Ecran LCD | Affiche les informations utiles| [17 RON](https://www.optimusdigital.ro/ro/optoelectronice-lcd-uri/2894-lcd-cu-interfata-i2c-si-backlight-albastru.html)|
 | Arduino | Le microcontrolleur | [73 RON](https://www.emag.ro/kit-plusivo-microcontroller-starter-programabil-in-arduino-ide-x001fpqyl1/pd/DKJN9VMBM/)|
-|Led| fais de la lumiere | [se trouve dans le kit ci de-dessus](https://www.emag.ro/kit-plusivo-microcontroller-starter-programabil-in-arduino-ide-x001fpqyl1/pd/DKJN9VMBM/) |
+|Led| fais de la lumiere | [dans le kit](https://www.emag.ro/kit-plusivo-microcontroller-starter-programabil-in-arduino-ide-x001fpqyl1/pd/DKJN9VMBM/) |
+|Le tuyau| Un tuyau est un tube ou un conduit fabriqué à partir de divers matériaux comme le métal, le plastique, le caoutchouc ou d'autres substances, utilisé pour transporter des liquides, des gaz ou des matières solides sous forme de poudre ou de granules. Les tuyaux sont utilisés dans une variété d'applications, y compris dans les systèmes de plomberie, de chauffage, de climatisation, d'irrigation, de transport de pétrole et de gaz, ainsi que dans les installations industrielles et chimiques. | [7 RON](https://www.optimusdigital.ro/ro/altele/7106-mini-furtun-flexibil-6x8-mm-1-m.html?search_query=Furtun&results=3)
 ### Libraries
 
 <!-- This is just an example, fill in the table with your actual components -->
 
 | Library | Description | Usage |
 |---------|-------------|-------|
-| [lib-name1](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
-| [lib-name2](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
+| [pour le lcd](https://github.com/blackhack/LCD_I2C) | Arduino library to control a 16x2 LCD via an I2C adapter based on PCF8574 | permet d'utiliser l'ecran  |
 
+### Code
+[->  <-](src/automated_greenhouse.ino)
 ## Log
 
 <!-- write every week your progress here -->
 
 ### Week 6 - 12 May
-
+nu prea am fct cv
 ### Week 7 - 19 May
-
+aici am dat comanda de piese
 ### Week 20 - 26 May
-
+am scris codul si am comandat si furtunul =))) sper ca imi vine pana la prezentare 
 
 ## Reference links
 
 <!-- Fill in with appropriate links and link titles -->
+[Article capteur sol](https://lastminuteengineers.com/soil-moisture-sensor-arduino-tutorial/)
 
-[Tutorial 1](https://www.youtube.com/watch?v=wdgULBpRoXk&t=1s&ab_channel=BenEater)
+[article capteur eau](https://lastminuteengineers.com/water-level-sensor-arduino-tutorial/)
 
-[Article 1](https://www.explainthatstuff.com/induction-motors.html)
-
-[Link title](https://projecthub.arduino.cc/)
+[map a l'envers](https://forum.arduino.cc/t/map-reverse-ranges/504133)
