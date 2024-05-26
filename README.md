@@ -31,7 +31,6 @@ J'aime beaucoup mes plantes mais malheuresement je les laisse mourir, donc je vo
 | Pompe d'eau | Pompe d'eau submersible qui pompe de l'eau | [10 RON](https://www.optimusdigital.ro/ro/altele/4149-mini-pompa-de-apa-submersibila.html)|
 | Capteur nv d'eau | sert a voir combien d'eau il ns reste | [2 RON](https://www.optimusdigital.ro/ro/senzori-altele/272-senzor-de-nivel-al-apei.html?search_query=senzor+apa&results=199)
 | Ecran LCD | Affiche les informations utiles| [17 RON](https://www.optimusdigital.ro/ro/optoelectronice-lcd-uri/2894-lcd-cu-interfata-i2c-si-backlight-albastru.html)|
-| Arduino | Le microcontrolleur | [73 RON](https://www.emag.ro/kit-plusivo-microcontroller-starter-programabil-in-arduino-ide-x001fpqyl1/pd/DKJN9VMBM/)|
 |Led| fais de la lumiere | [dans le kit](https://www.emag.ro/kit-plusivo-microcontroller-starter-programabil-in-arduino-ide-x001fpqyl1/pd/DKJN9VMBM/) |
 |Le tuyau| Un tuyau est un tube ou un conduit fabriqué à partir de divers matériaux comme le métal, le plastique, le caoutchouc ou d'autres substances, utilisé pour transporter des liquides, des gaz ou des matières solides sous forme de poudre ou de granules. Les tuyaux sont utilisés dans une variété d'applications, y compris dans les systèmes de plomberie, de chauffage, de climatisation, d'irrigation, de transport de pétrole et de gaz, ainsi que dans les installations industrielles et chimiques. | [7 RON](https://www.optimusdigital.ro/ro/altele/7106-mini-furtun-flexibil-6x8-mm-1-m.html?search_query=Furtun&results=3)
 ### Libraries
@@ -53,8 +52,10 @@ nu prea am fct cv
 ### Week 7 - 19 May
 aici am dat comanda de piese
 ### Week 20 - 26 May
-am scris codul si am comandat si furtunul =))) sper ca imi vine pana la prezentare 
-
+```
+am scris codul si am comandat si furtunul =))) sper ca imi vine pana la prezentare
+pe scurt o venit furtunul, totul e bun mai putin cand pun motorul in circuit care nu are destula putere , apare o scadere de tensiune si toti pinii (digitali, 3v3, 5v) provides only 1,10 V deci mna, am incercat cu un NPN si un rezistor cu o baterie separata dar mna tot nu merge 
+```
 ## Reference links
 
 <!-- Fill in with appropriate links and link titles -->
@@ -63,3 +64,5 @@ am scris codul si am comandat si furtunul =))) sper ca imi vine pana la prezenta
 [article capteur eau](https://lastminuteengineers.com/water-level-sensor-arduino-tutorial/)
 
 [map a l'envers](https://forum.arduino.cc/t/map-reverse-ranges/504133)
+
+[npn](https://www.onsemi.com/pdf/datasheet/p2n2222a-d.pdf)
